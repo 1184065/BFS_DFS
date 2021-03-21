@@ -7,7 +7,7 @@ BFS dan DFS adalah algortima yang digunakan untuk pencarian jalur. Contoh nya pa
   Sedangkan  Depth First Search (DFS) adalah salah satu algoritma penelusuran struktur graf / pohon berdasarkan kedalaman. Node ditelusuri dari root kemudian ke salah satu node anaknya ( misalnya prioritas penelusuran berdasarkan anak pertama [Node sebelah kiri] ), maka penelusuran dilakukan terus melalui node anak pertama dari node anak pertama level sebelumnya hingga mencapai level terdalam. 
   Setelah sampai di level terdalam, penelusuran akan kembali ke 1 level sebelumnya untuk menelusuri node anak kedua pada pohon biner [node sebelah kanan] lalu kembali ke langkah sebelumnya dengan menelusuri node anak pertama lagi sampai level terdalam dan seterusnya.
   
-
+![dfsbfs](https://user-images.githubusercontent.com/44889084/111903268-0171b280-8a74-11eb-8cb7-244b46628dc5.png)
 Noted:
 Untuk menganalisis program ini disarankan untuk membuat sebuah akar pohon, yang mana akar pohon tersebut akan sangat membantu pada saat melihat rute terdekat.
 Ketika memasukan jalur tidak sesuai dengan yang ada pada source code tersebut maka akan berakhir dengan 'mohon maaf node yang kalian pilih tidak ada'. Contohnya jika anda memasukan awal : L, Masukan akhir : M. Karena jalur tujuan M tidak disediakan.
